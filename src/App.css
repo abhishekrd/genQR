@@ -105,6 +105,16 @@
 .github:active {
   transform: scale(0.98);
 }
+.inactive{
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 1.2rem;
+  font-family: 'IBM Plex sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  outline: none;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.281);
+  color: grey;
+  border-radius: 0.3rem;
+}
 
 @media screen and (max-width:768px) {
   .input {
@@ -115,11 +125,16 @@
     font-size: 2rem;
     padding: 0 1rem 0 1rem;
   }
-
+  .App{
+    padding-bottom: 5rem;
+  }
   .subhead {
     font-size: 1.1rem;
     padding: 0 1rem 0 1rem;
 
+  }
+  .github{
+    margin-bottom: 3rem;
   }
 
   .info {

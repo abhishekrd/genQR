@@ -26,7 +26,7 @@ function App() {
       <h2 className='subhead'>A QR Code Generator for your links🚀</h2>
       <input className='input' type="text" placeholder="Enter your url here..." value={url} onChange={(e) => setUrl(e.target.value)} />
     { url ? <QRCode id='qrcode' size={256} fgColor="#212121" value={url} includeMargin={true} renderAs="canvas" /> : <h2 className='info'>QR will be Generated here...</h2>}  
-     <button className='dwnldbtn' onClick={handleDownload} value="Download">Download</button>
+    {url ? <button className='dwnldbtn' onClick={handleDownload} value="Download">Download</button> : <button className='inactive'>Download</button>} 
     </div>
   )
 }
