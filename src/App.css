@@ -71,10 +71,6 @@
 
 
 .dwnldbtn:hover {
-  padding: 0.5rem 1rem 0.5rem 1rem;
-  font-size: 1.2rem;
-  outline: none;
-  border: none;
   transform: translateY(-1px);
   background-color: #67b3ff;
   background-image: linear-gradient(62deg, #b260ff 0%, #48a3ff 100%);
@@ -134,7 +130,7 @@
 
   }
   .github{
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
   }
 
   .info {
