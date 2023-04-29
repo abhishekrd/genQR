@@ -1,6 +1,10 @@
-# genQR
+# GenQR🪄
 A QR Code Generator for Links, Text etc.
 
-live link : https://gennqr.netlify.app/
+### Tech Stack
+<img src="https://skillicons.dev/icons?i=react,vite,js" />
 
-Built using React⚛️ and Vite
+### Try Out⚡
+https://gennqr.netlify.app/
+
+
